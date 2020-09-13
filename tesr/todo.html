@@ -1,0 +1,43 @@
+<DOCTYPE HTML>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>Todo list</title>
+    </head>
+    <body>
+      <div class="d1">
+       <h1 style=" color: burlywood;">Todo list</h1>
+       
+        <div class="container">
+          <input id="numb">
+
+         <button type="button" onclick="myFunction()">Submit</button>
+         <h2>Tasks </h2>
+
+      <pre id="demo">
+          
+      </pre>
+
+            <script>
+        function myFunction() {
+          var x, text;
+
+       
+          x = document.getElementById("numb").value;
+          k = document.getElementById("demo").innerHTML;
+          z=x+k;
+
+    
+        document.getElementById("demo").innerHTML = z;
+          }
+</script>
+
+           
+            
+               
+            
+        </div>
+        </div>
+    </body>
+</html>
+    

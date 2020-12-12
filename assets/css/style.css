@@ -146,21 +146,25 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   animation: animate infinite 8s;
 }
+
 @keyframes animate{
   0%{
     content: 'Engineer';
   }
-  25%{
+  20%{
     content: 'Developer';
   }
-  50%{
+  40%{
     content: 'Designer';
   }
-  75%{
+  60%{
     content: 'Gamer';
   }
+  80%{
+    content: 'Dreamer';
+  }
   100%{
-    content: 'Student';
+    content: 'Learner';
   }
 
 }
